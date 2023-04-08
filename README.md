@@ -60,11 +60,15 @@ A primeira atividade, "csvfile_to_lake", copia o arquivo CSV local para um lake 
 
 Vamos, primeiro, criar o servidor, a base de dados para, e os datasets, para depois, proseguirmos para a atividade 2.
 
-![arquivo no data lake](img/atvweb.JPG)
+![arquivo no data lake](img/arquivo_no_blob.JPG)
 
 ### Servidor e base de dados PostgresSQL - Azure Cloud
 
 Foi criado um servidor PostgresSQL na Azure Cloud, sendo configuradas também as opções de rede e range de IP. Optei por usar o PgAdmin para criar os scripts e vizualizar as alterações. Após conexão com o servidor na cloud, foi criada a base stage_vendas para recepcionar os dados do arquivo do data lake.
+
+Atenção à tipagem dos dados pois o PostgresSQL têm opções tipos-texto que variam muito entre si na quantidade de caracteres permitidos.
+
+Sobre os tipos de dados no PostgresSQL: https://www.postgresql.org/docs/15/datatype.html
 
 ### Datasets
 
@@ -74,7 +78,7 @@ O pipeline utiliza duas referências de dataset, uma para o arquivo CSV local e 
 
 A segunda atividade, "lake_to_postgres", move os dados do lago para a tabela do PostgreSQL. Nessa atividade, é definido o source (origem) como o arquivo CSV armazenado no lake, utilizando a opção "DelimitedTextSource". O sink (destino) é definido como o banco de dados PostgreSQL, utilizando a opção "AzurePostgreSQLSink". É definido também o tamanho do lote (batch) e o tempo máximo para envio do lote. O tipo de escrita é definido como "CopyCommand".
 
-![Pipeline](img/atvweb.JPG)
+![Pipeline](img/pipeline.JPG)
 
 Com os dados persistidos na base, podemos efetuar a instalação do Metabase Open source.
 
@@ -100,25 +104,26 @@ Podemos fazer uma exploração rápida e simples da base, elaborando perguntas e
 
 O Metabase é muito simples e prático, facilitando a exploração e vizualização dos dados.
 
+![Pipeline](img/Dash simples.png)
+
 Em resumo, o pipeline lê o arquivo CSV local, o copia para um lago e, em seguida, move os dados do lago para o banco de dados PostgreSQL. Esse pipeline poderia ser agendado para ser executado regularmente ou desencadeado por um evento específico.
 
-Mas, antes, vamos elaborar a base de dados que dará suporte ao input do arquivo csv
 
-
-
+![Pipeline](img/metabase query.JPG)
 ~~~SQL
-INSERT INTO dbo.cotacoes (ativo, cotacao, data) VALUES ('@{variables('ativo')}', '@{variables('cotacao')}', '@{variables('data')}')
+CREATE TABLE IF NOT EXISTS vendas.stage_vendas
+(
+    id_venda smallint,
+    n_pedido smallint,
+    cond_pagto smallint,
+    cod_produto smallint,
+    produto text COLLATE pg_catalog."default",
+    valor numeric,
+    vendedor text COLLATE pg_catalog."default",
+    cliente text COLLATE pg_catalog."default",
+    data_venda date,
+    insert_data date
+)
 ~~~
 
-Muita atenção à tipagem dos dados pois o PostgresSQL têm opções tipos-texto que variam muito entre si na quantidade de caracteres permitidos.
-
-Sobre os tipos de dados no PostgresSQL: https://www.postgresql.org/docs/15/datatype.html
-
-### Servidor e base de dados PostgresSQL - Azure Cloud
-
-
-
-
-
-Regenerate response
 
