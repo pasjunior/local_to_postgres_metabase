@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "csvfile_to_lake",
+				"name": "csv_file_to_lake",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -74,7 +74,7 @@
 				"type": "Copy",
 				"dependsOn": [
 					{
-						"activity": "csvfile_to_lake",
+						"activity": "csv_file_to_lake",
 						"dependencyConditions": [
 							"Succeeded"
 						]
