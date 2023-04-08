@@ -126,7 +126,7 @@ O Metabase é muito simples e prático, facilitando a exploração e vizualizaç
 Em resumo, o pipeline lê o arquivo CSV local, o copia para um lago e, em seguida, move os dados do lago para o banco de dados PostgreSQL. Esse pipeline poderia ser agendado para ser executado regularmente ou desencadeado por um evento específico.
 
 
-![Pipeline](img/metabase query.JPG)
+![Pipeline](img/metabase_query.JPG)
 
 
 
