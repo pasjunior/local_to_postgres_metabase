@@ -70,6 +70,23 @@ Atenção à tipagem dos dados pois o PostgresSQL têm opções tipos-texto que 
 
 Sobre os tipos de dados no PostgresSQL: https://www.postgresql.org/docs/15/datatype.html
 
+Script de criação dos dados:
+
+~~~SQL
+CREATE TABLE IF NOT EXISTS vendas.stage_vendas
+(
+    id_venda smallint,
+    n_pedido smallint,
+    cond_pagto smallint,
+    cod_produto smallint,
+    produto text COLLATE pg_catalog."default",
+    valor numeric,
+    vendedor text COLLATE pg_catalog."default",
+    cliente text COLLATE pg_catalog."default",
+    data_venda date,
+    insert_data date
+)
+~~~
 ### Datasets
 
 O pipeline utiliza duas referências de dataset, uma para o arquivo CSV local e outra para a tabela do PostgreSQL.
@@ -110,20 +127,7 @@ Em resumo, o pipeline lê o arquivo CSV local, o copia para um lago e, em seguid
 
 
 ![Pipeline](img/metabase query.JPG)
-~~~SQL
-CREATE TABLE IF NOT EXISTS vendas.stage_vendas
-(
-    id_venda smallint,
-    n_pedido smallint,
-    cond_pagto smallint,
-    cod_produto smallint,
-    produto text COLLATE pg_catalog."default",
-    valor numeric,
-    vendedor text COLLATE pg_catalog."default",
-    cliente text COLLATE pg_catalog."default",
-    data_venda date,
-    insert_data date
-)
-~~~
+
+
 
 
