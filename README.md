@@ -1,5 +1,5 @@
 # Projeto Az 2.0 - Do arquivo on premise ao BI
-### Upload de arquivo local para data lake com persistência no Postgres e dataviz no Metabase - API disponível em https://economia.awesomeapi.com.br/last
+### Upload de arquivo local para data lake com persistência no Postgres e dataviz no Metabase
 ### Parte de infra pré-configurada para o projeto:
 - Azure Data Factory
 - Postgres Server na Azure Cloud e PostgreSQL Database
