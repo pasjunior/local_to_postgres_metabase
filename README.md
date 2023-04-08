@@ -14,7 +14,7 @@ Essa é uma pipeline na plataforma de dados Azure Data Factory, que tem como obj
 
 <div align="center">
   
-![Arquitetura](img/arq 2.JPG)
+![Arquitetura](img/arq2.JPG)
   
  </div>
  
