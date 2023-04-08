@@ -107,7 +107,7 @@ Com os dados persistidos na base, podemos efetuar a instalação do Metabase Ope
 
 Seguindo as orientações contidas na página https://www.metabase.com/docs/latest/installation-and-operation/running-the-metabase-jar-file na seção de instalação open source, baixe o Java JAR , crie um diretório para o arquivo baixado, e, dentro da pasta criada insira os comando abaixo no terminal como admin:
 
-java -jar metabase.jar
+`java -jar metabase.jar`
 
 
 Após o término do projeto, efetue os passos de login e a interface web estará disponível em http://localhost:3000/setup
