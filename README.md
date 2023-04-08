@@ -104,7 +104,7 @@ Podemos fazer uma exploração rápida e simples da base, elaborando perguntas e
 
 O Metabase é muito simples e prático, facilitando a exploração e vizualização dos dados.
 
-![Pipeline](img/Dash simples.png)
+![Pipeline](img/dash_simples.JPG)
 
 Em resumo, o pipeline lê o arquivo CSV local, o copia para um lago e, em seguida, move os dados do lago para o banco de dados PostgreSQL. Esse pipeline poderia ser agendado para ser executado regularmente ou desencadeado por um evento específico.
 
