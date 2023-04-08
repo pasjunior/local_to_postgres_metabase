@@ -119,15 +119,16 @@ Seguindo as orientações da plataforma, conecte-se com o PgAdmin e os dados da 
 
 Podemos fazer uma exploração rápida e simples da base, elaborando perguntas e/ou elaborando querys em SQL que podem ser salvas como vizualizações e adicionadas depois a um Dashboard.
 
-O Metabase é muito simples e prático, facilitando a exploração e vizualização dos dados.
-
-![Pipeline](img/dash_simples.JPG)
-
-Em resumo, o pipeline lê o arquivo CSV local, o copia para um lago e, em seguida, move os dados do lago para o banco de dados PostgreSQL. Esse pipeline poderia ser agendado para ser executado regularmente ou desencadeado por um evento específico.
-
+Exemplo de consulta SQL executda na plataforma:
 
 ![Pipeline](img/metabase_query.JPG)
 
+O Metabase é muito simples e prático, facilitando a exploração e vizualização dos dados.
 
+Dashboard final:
 
+![Pipeline](img/dash_simples.JPG)
 
+Em resumo, o pipeline lê o arquivo CSV local, o copia para um lago e, em seguida, move os dados do lago para o banco de dados PostgreSQL e posteriormente para uma aplicação de vizualização.Esse pipeline poderia ser agendado para ser executado regularmente ou desencadeado por um evento específico.
+
+O projeto pode ser incrementado com a adição de um DW que preste suporte às operações de venda e também há possibilidade de utilização de tecnologias diversas, open source ou de outras clouds.
