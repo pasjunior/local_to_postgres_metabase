@@ -1,5 +1,5 @@
 {
-	"name": "get_apibtc",
+	"name": "local_file_to_postgres",
 	"properties": {
 		"activities": [
 			{
