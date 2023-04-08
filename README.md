@@ -25,7 +25,7 @@ Foi escolhida a atividade de vendas para servir de exemplo. O arquivo de vendas 
 
 <div align="center">
   
-![mockaroo](img/arq.JPG)
+![mockaroo](preview_mockap.JPG)
   
  </div>
  
