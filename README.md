@@ -88,7 +88,7 @@ CREATE TABLE IF NOT EXISTS vendas.stage_vendas
 )
 ~~~
 
-Tabela criada no PostgresSQL - PgAmdin
+Tabela criada no PostgresSQL - Script SELECT criado pelo PgAmdin
 
 ![postgres_db](img/pgadmin_table.JPG)
 
