@@ -1,0 +1,78 @@
+{
+	"name": "lake_to_postgres",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_azure_postgres",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzurePostgreSqlTable",
+		"schema": [
+			{
+				"name": "id_venda",
+				"type": "smallint",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "n_pedido",
+				"type": "smallint",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "cond_pagto",
+				"type": "smallint",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "cod_produto",
+				"type": "smallint",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "produto",
+				"type": "\"char\"",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "valor",
+				"type": "numeric",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "vendedor",
+				"type": "\"char\"",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "cliente",
+				"type": "\"char\"",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "data_venda",
+				"type": "date",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "insert_data",
+				"type": "date",
+				"precision": 0,
+				"scale": 0
+			}
+		],
+		"typeProperties": {
+			"schema": "vendas",
+			"table": "stage_vendas"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

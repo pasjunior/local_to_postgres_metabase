@@ -1,0 +1,60 @@
+{
+	"name": "generic_dataset_csv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_local_file",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation",
+				"fileName": "Vendas_exemplo.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "id_venda",
+				"type": "String"
+			},
+			{
+				"name": "n_pedido",
+				"type": "String"
+			},
+			{
+				"name": "cond_pagto",
+				"type": "String"
+			},
+			{
+				"name": "cod_produto",
+				"type": "String"
+			},
+			{
+				"name": "produto",
+				"type": "String"
+			},
+			{
+				"name": "valor",
+				"type": "String"
+			},
+			{
+				"name": "vendedor",
+				"type": "String"
+			},
+			{
+				"name": "cliente",
+				"type": "String"
+			},
+			{
+				"name": "data_venda",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
