@@ -31,7 +31,7 @@ Foi escolhida a atividade de vendas para servir de exemplo. O arquivo de vendas 
  
  <div align="center">
   
-![arqcsv](img/arq.JPG)
+![arqcsv](img/arquivo_csv.JPG)
   
  </div>
  
