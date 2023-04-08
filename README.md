@@ -1,4 +1,4 @@
-# Upload de arquivos para o Postgres com orquestração pelo Data Factory
+# Projeto 2
 
 
 Essa é uma definição de pipeline da plataforma de dados Azure Data Factory, que tem como objetivo mover dados de um arquivo CSV local para uma tabela no banco de dados PostgreSQL.
