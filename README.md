@@ -87,6 +87,12 @@ CREATE TABLE IF NOT EXISTS vendas.stage_vendas
     insert_data date
 )
 ~~~
+
+Tabela criada no PostgresSQL - PgAmdin
+
+![postgres_db](img/pgadmin_table.JPG)
+
+
 ### Datasets
 
 O pipeline utiliza duas referências de dataset, uma para o arquivo CSV local e outra para a tabela do PostgreSQL.
