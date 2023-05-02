@@ -70,7 +70,7 @@ Atenção à tipagem dos dados pois o PostgresSQL têm opções tipos-texto que 
 
 Sobre os tipos de dados no PostgresSQL: https://www.postgresql.org/docs/15/datatype.html
 
-Script de criação dos dados:
+Script de criação da tabela:
 
 ~~~SQL
 CREATE TABLE IF NOT EXISTS vendas.stage_vendas
