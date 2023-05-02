@@ -135,6 +135,6 @@ Dashboard final:
 
 ![Pipeline](img/dash_simples.JPG)
 
-Em resumo, o pipeline lê o arquivo CSV local, o copia para um lago e, em seguida, move os dados do lago para o banco de dados PostgreSQL e posteriormente para uma aplicação de vizualização.Esse pipeline poderia ser agendado para ser executado regularmente ou desencadeado por um evento específico.
+Em resumo, o pipeline lê o arquivo CSV local, o copia para um data lake e, em seguida, move os dados do data lake para o banco de dados PostgreSQL e posteriormente para uma aplicação de vizualização.Esse pipeline poderia ser agendado para ser executado regularmente ou desencadeado por um evento específico.
 
 O projeto pode ser incrementado com a adição de um DW que preste suporte às operações de venda e também há possibilidade de utilização de tecnologias diversas, open source ou de outras clouds.
