@@ -56,7 +56,7 @@ O pipeline é composto por 2 atividades:
 
 ### Primeira atividade
 
-A primeira atividade, "csvfile_to_lake", copia o arquivo CSV local para um lake (armazenamento) no formato .CSV. Nessa atividade, é definido o source (origem) como o arquivo CSV local, utilizando a opção "DelimitedTextSource". Também é adicionada uma coluna adicional chamada "insert_data" que contém a data atual formatada em dia-mês-ano, que será usada posteriormente na tabela PostgreSQL. O sink (destino) é definido como um Azure Blob Storage com um arquivo CSV delimitado com todas as colunas citadas no arquivo original.
+A primeira atividade, "csvfile_to_lake", copia o arquivo CSV local para um lake (armazenamento) no formato .CSV. Nessa atividade, é definido o source (origem) como o arquivo CSV local, utilizando a opção "DelimitedTextSource". Também é adicionada uma coluna chamada "insert_data" que contém a data atual formatada em dia-mês-ano, que será usada posteriormente na tabela PostgreSQL. O sink (destino) é definido como um Azure Blob Storage com um arquivo CSV delimitado com todas as colunas citadas no arquivo original.
 
 Vamos, primeiro, criar o servidor, a base de dados para, e os datasets, para depois, proseguirmos para a atividade 2.
 
