@@ -35,7 +35,16 @@ ________________________________________________________________________________
 TCC
 
 Objetivo
+
 Neste sentido, o objetivo do trabalho é criar uma arquitetura que consuma uma base de dados local, tratar os dados em nuvem e gerar os dados analisados no Metabase. Isso permitirá que à empresa aproveitar escalabilidade, segurança e confiabilidade da nuvem Microsoft para lidar com grandes volumes de dados e obter insights valiosos para melhorar a eficiência e o sucesso da empresa. O Power BI será usado para criar painéis e relatórios interativos para analisar os dados de forma mais eficiente e tomar decisões informadas.
+
+Objetivo especifico
+
+Desenvolver uma arquitetura eficiente que permita consumir uma base de dados local e processar os dados em nuvem, utilizando a plataforma Microsoft Azure, visando aproveitar a escalabilidade, segurança e confiabilidade oferecidas pela nuvem para lidar com grandes volumes de dados.
+
+Implementar a integração entre a base de dados local, a plataforma de processamento em nuvem e o Metabase, de forma a garantir a geração de dados analisados e disponibilizá-los para a empresa, permitindo obter insights valiosos para melhorar a eficiência operacional e o sucesso geral da organização.
+
+Utilizar o Power BI como ferramenta principal para criar painéis e relatórios interativos, que facilitem a análise dos dados processados, proporcionando uma compreensão mais profunda das informações e embasando a tomada de decisões informadas, visando impulsionar a eficiência e o desempenho da empresa.
 
 Problemática:
 
