@@ -20,14 +20,13 @@ Hipotético dedutivo - essa aqui q vamos usar
 8. Prova:
 9. Correção das hipóteses, teorias, procedimentos ou dados empregados na obtenção da solução incorreta:
 
-
 Métodos:
 
 Indutivo e suas etapas - do particular pro geral
 Dedutivo - do geral pro particular - essa aqui q vamos usar
 Hipotético dedutivo - essa aqui q vamos usar
 Dialético
-
+________________Metodologia________________________________________________________________________________________________________
 Metodologia: antes da solução
 Pesquisa de coleta de dados
 Autores, livros
@@ -42,6 +41,16 @@ Bibliográfica
 Pesquisa básica
 Pesquisa aplicada (ou tecnológica) -  a nossa
 
+Abordagem do problema:
+
+Quantitativa
+Qualitativa: a nossa - pesquisar mais
+
+Evitar excesso de ciações diretas
+
+Objetivos:
+Exploratória
+Descritiva: a nossa (e explicativa?)
 ______________________________________________________________________________________________________________________________________
 TCC
 
