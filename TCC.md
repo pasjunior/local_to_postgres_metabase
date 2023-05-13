@@ -40,13 +40,17 @@ Partindo do contexo de uma empresa que usa armazenamento local de arquivos com g
 
 Documental
 
-Será realizada uma análise documental pois a principal fonte de informação para o estudo será a documentação relacionada às tecnologias da arquitetura proposta. Isso inclui documentos técnicos relacionados à plataforma Microsoft Azure, documentação relacionada à base de dados local e qualquer outra documentação relevante necessária para a implementação da arquitetura.
+Base de dados de faturamento da Empresa S/A dos primeiros 6m de 2023.
 
-Além disso, a análise documental também permite uma revisão e avaliação mais aprofundada da literatura existente relacionada ao tema. 
 
 Bibliográfica
 
-Considera estudos anteriores sobre arquiteturas de dados em nuvem e ferramentas de visualização de dados, bem como documentos técnicos relevantes e artigos científicos.
+Considera fontes de informação para o estudo e a documentação relacionada às tecnologias da arquitetura proposta. Isso inclui documentos técnicos relacionados à plataforma Microsoft Azure, relacionados à base de dados local e qualquer outra documentação relevante necessária para a implementação da arquitetura.Considera também estudos anteriores sobre arquiteturas de dados em nuvem e ferramentas de visualização de dados.
+
+Permite uma revisão e avaliação mais aprofundada da literatura existente relacionada ao tema.
+
+ 
+
 
 Pesquisa básica
 Pesquisa aplicada (ou tecnológica) -  a nossa
