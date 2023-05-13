@@ -42,14 +42,17 @@ Documental
 
 Base de dados de faturamento da Empresa S/A dos primeiros 6m de 2023.
 
-
 Bibliográfica
 
-Considera fontes de informação para o estudo e a documentação relacionada às tecnologias da arquitetura proposta. Isso inclui documentos técnicos relacionados à plataforma Microsoft Azure, relacionados à base de dados local e qualquer outra documentação relevante necessária para a implementação da arquitetura.Considera também estudos anteriores sobre arquiteturas de dados em nuvem e ferramentas de visualização de dados.
+Considera fontes de informação e referências para o estudo e a documentação relacionada às tecnologias da arquitetura proposta. Isso inclui documentos técnicos relacionados à plataforma Microsoft Azure, relacionados à base de dados local e qualquer outra documentação relevante necessária para a implementação da arquitetura.Considera também estudos anteriores sobre arquiteturas de dados em nuvem e ferramentas de visualização de dados.
 
 Permite uma revisão e avaliação mais aprofundada da literatura existente relacionada ao tema.
 
- 
+Qualitativa
+
+
+
+Descritiva
 
 
 Pesquisa básica
@@ -70,8 +73,6 @@ Forma dos procedimentos técnicos:
 
 Experimental
 Estudo de caso
-
-
 
 ______________________________________________________________________________________________________________________________________
 TCC
