@@ -1,8 +1,12 @@
 Autores que tratam de computação em nuvem : "conversar c eles," concordando ou discordando.
 
 Objetivo: no infinitivo e indicando o resultado. Com contexto.
-
-
+Público: Para quem?
+Contexto
+Hipótese: uma pergunta feita pra confirmar, constatar a proposta de solução.
+Método:
+Dedutivo - do geral pro particular - essa aqui q vamos usar ou
+Hipotético dedutivo - essa aqui q vamos usar
 
 Neste sentido, o objetivo do trabalho é criar uma arquitetura que consuma uma base de dados local, tratar os dados em nuvem e gerar os dados analisados no Metabase. Isso permitirá que à empresa aproveitar escalabilidade, segurança e confiabilidade da nuvem Microsoft para lidar com grandes volumes de dados e obter insights valiosos para melhorar a eficiência e o sucesso da empresa. O Power BI será usado para criar painéis e relatórios interativos para analisar os dados de forma mais eficiente e tomar decisões informadas.
 
@@ -37,6 +41,12 @@ Portanto, a arquitetura proposta pode ajudar a resolver problemas relacionados �
 
 
 Métodos:
+
+Indutivo e suas etapas - do particular pro geral
+Dedutivo - do geral pro particular - essa aqui q vamos usar
+Hipotético dedutivo - essa aqui q vamos usar
+Dialético
+
 Metodologia: antes da solução
 Pesquisa de coleta de dados
 Autores, livros
