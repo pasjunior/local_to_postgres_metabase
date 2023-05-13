@@ -35,8 +35,18 @@ Pesquisa:
 Explicar cada um junto com a definição de um autor
 
 Estudo de caso
+
+Partindo do contexo de uma empresa que usa armazenamento local de arquivos com grande quantidade de dados e que precisa evoluir e otimizar o armazenamento e persistência dos dados em nuvem para análise, haverá a indicação de uma arquitetura de pipeline que usa de aplicações e ferramentas que conseguem mover o arquivo de um ambiente local para uma nuvem pública de modo
+
 Documental
+
+Será realizada uma análise documental pois a principal fonte de informação para o estudo será a documentação relacionada às tecnologias da arquitetura proposta. Isso inclui documentos técnicos relacionados à plataforma Microsoft Azure, documentação relacionada à base de dados local e qualquer outra documentação relevante necessária para a implementação da arquitetura.
+
+Além disso, a análise documental também permite uma revisão e avaliação mais aprofundada da literatura existente relacionada ao tema. 
+
 Bibliográfica
+
+Considera estudos anteriores sobre arquiteturas de dados em nuvem e ferramentas de visualização de dados, bem como documentos técnicos relevantes e artigos científicos.
 
 Pesquisa básica
 Pesquisa aplicada (ou tecnológica) -  a nossa
