@@ -50,7 +50,15 @@ Evitar excesso de ciações diretas
 
 Objetivos:
 Exploratória
-Descritiva: a nossa (e explicativa?)
+Descritiva: a nossa (e explicativa também?)
+
+Forma dos procedimentos técnicos:
+
+Experimental
+Estudo de caso
+
+
+
 ______________________________________________________________________________________________________________________________________
 TCC
 
