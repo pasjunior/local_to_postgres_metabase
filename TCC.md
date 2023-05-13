@@ -31,14 +31,25 @@ Dialético
 Metodologia: antes da solução
 Pesquisa de coleta de dados
 Autores, livros
+
+Pesquisa:
+Explicar cada um junto com a definição de um autor
+
+Estudo de caso
+Documental
+Bibliográfica
+
+Pesquisa básica
+Pesquisa aplicada (ou tecnológica) -  a nossa
+
 ______________________________________________________________________________________________________________________________________
 TCC
 
-Objetivo
+Objetivo Geral
 
 Criar uma arquitetura que consuma uma base de dados local, tratar os dados em nuvem e gerar os dados analisados no Metabase. Isso permitirá que à empresa aproveitar escalabilidade, segurança e confiabilidade da nuvem Microsoft para lidar com grandes volumes de dados e obter insights valiosos para melhorar a eficiência e o sucesso da empresa. Metabase será usado para criar painéis e relatórios interativos para analisar os dados de forma mais eficiente e tomar decisões informadas.
 
-Objetivo especifico - OK
+Objetivo especifico - OK - fundamentos das pesquisa
 
 Desenvolver uma arquitetura eficiente que permita consumir uma base de dados local e processar os dados em nuvem, utilizando a plataforma Microsoft Azure, visando aproveitar a escalabilidade, segurança e confiabilidade oferecidas pela nuvem para lidar com grandes volumes de dados.
 
