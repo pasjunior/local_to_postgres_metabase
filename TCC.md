@@ -1,4 +1,5 @@
 Anotações
+https://dontpad.com/Kelton
 
 Autores que tratam de computação em nuvem : "conversar c eles," concordando ou discordando.
 
@@ -50,10 +51,22 @@ Permite uma revisão e avaliação mais aprofundada da literatura existente rela
 
 Qualitativa
 
+Esse trabalho tem a classificação qualitativa porque ele se concentra em analisar e interpretar informações qualitativas, como a documentação relacionada à arquitetura proposta e a revisão da literatura existente. Além disso, o objetivo principal é entender a complexidade dos desafios enfrentados pelas empresas na gestão de grandes volumes de dados e propor uma solução por meio da arquitetura proposta, e não medir ou quantificar dados de forma numérica.
 
+Diferentemente de uma abordagem quantitativa, que envolve a coleta e análise de dados numéricos e estatísticos, a abordagem qualitativa se concentra na análise de informações não numéricas, como a percepção, opinião e experiência dos indivíduos envolvidos no tema estudado. Portanto, a classificação qualitativa é mais apropriada para este trabalho, uma vez que se concentra na análise e interpretação de informações qualitativas.
 
 Descritiva
 
+Será feita uma análise descritiva pois o objetivo é descrever a arquitetura proposta para a gestão de grandes volumes de dados em empresas, bem como descrever as principais características e funcionalidades das ferramentas e plataformas utilizadas nessa arquitetura.
+
+A análise descritiva envolve a coleta de dados relevantes e a organização desses dados em uma estrutura coerente e lógica para descrever o fenômeno ou objeto de estudo em questão. Isso inclui a descrição dos componentes da arquitetura, como a base de dados local, a plataforma de processamento em nuvem e a ferramenta de visualização de dados.
+
+Além disso, a análise descritiva também permite uma avaliação das vantagens e desvantagens da arquitetura proposta, bem como das ferramentas e plataformas utilizadas. Isso ajuda a fornecer uma visão geral da arquitetura e sua eficácia na gestão de grandes volumes de dados em empresas.
+
+Dessa forma, a análise descritiva permite uma compreensão mais completa e detalhada da arquitetura proposta, seus componentes e funcionalidades, bem como sua relevância na gestão de dados em empresas.
+
+Funamentar com autores cada tópico da metodologia
+_____________________________________________________________________________________________________
 
 Pesquisa básica
 Pesquisa aplicada (ou tecnológica) -  a nossa
