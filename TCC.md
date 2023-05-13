@@ -140,3 +140,7 @@ O método usado será o dedutivo
 Solução proposta: O teste dessa hipótese envolverá a implementação da arquitetura proposta, seguida da coleta, processamento e análise dos dados utilizando o Metabase. 
 
 Caso a hipótese seja confirmada, isso fornecerá evidências de que a arquitetura de processamento de dados em nuvem é uma solução viável para lidar com grandes volumes de dados.
+
+
+
+O estudo de caso é um método de pesquisa que, em geral, baseia-se em dados qualitativos obtidos  a  partir  de  situações  reaisvisando  explicar,  explorar  ou  descrever  fenômenos relacionados ao contexto na atualidade [Eisenhardt, 1989]
